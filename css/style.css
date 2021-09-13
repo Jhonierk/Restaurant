@@ -1,3 +1,22 @@
-section{
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-Regular.ttf");
+  }
+
+
+/* section{
     color:red;
+} */
+
+.subtitle {
+font-size: 50px;
+font-family: Ubuntu;
+}
+
+.proposal {
+background-image:url("/assets/foto2@2x.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 700px;
 }
