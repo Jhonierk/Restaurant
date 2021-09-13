@@ -1,26 +1,60 @@
 @font-face {
     font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-Regular.ttf");
-  }
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
 
+nav {
+  background-color: #000;
+  opacity: .7;
+}
+nav a{
+  color: #fff;
+}
 
-/* section{
-    color:red;
-} */
+nav a:hover{
+  color: orangered !important;
+}
 
-.subtitle {
+.carousel-subtitle {
 font-size: 50px;
 font-family: Ubuntu;
 }
 
-.proposal {
-background-image:url("../assets/foto2@2x.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 700px;
+.carousel-indicators .active {
+  background-color: orangered !important;
+}
+.carousel-indicators li {
+  width: 90px !important;
 }
 
+.proposal {
+background-image:url("../assets/foto2@2x.png");
+background-size: cover;
+height: 700px;
+padding-top: 100px;
+padding-left: 25%;
+padding-right: 25%;
+}
+.proposal .title{
+  font-size: 60px;
+  font-family: Oswald;
+}
+.proposal .text{
+  font-family: Roboto;
+  line-height: 2; 
+}
+
+.chef{
+  font-family: Oswald;
+}
 .menu{
 	width: 250px;
 	height: 200px;
