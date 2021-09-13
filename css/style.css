@@ -69,6 +69,24 @@ padding-right: 25%;
   padding-right: 25%;
 }
 
-.event h1{
+.event h1, h3{
   color: #ffff;
+  font-family: Oswald;
+  text-align: center;
+}
+
+.event h1{
+  font-size: 60px;
+}
+
+.event p{
+  text-align: justify;
+  color: #ffff;
+}
+
+.event .imgs{
+  display:block;
+  margin:auto;
+  width: 150px;
+  height: 100px;
 }
