@@ -20,3 +20,8 @@ background-size: cover;
 background-position: center;
 height: 700px;
 }
+
+.menu{
+	width: 250px;
+	height: 200px;
+}
