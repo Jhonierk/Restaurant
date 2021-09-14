@@ -90,3 +90,8 @@ padding-right: 25%;
   width: 150px;
   height: 100px;
 }
+
+.event .fas{
+  color: #fff;
+  text-align: center;
+}
