@@ -95,3 +95,13 @@ padding-right: 25%;
   color: #fff;
   text-align: center;
 }
+
+
+.comentarios{
+  background-color: #6f736e;
+}
+
+.comentarios .icons{
+  width: 20px;
+  height: 20px;
+}
