@@ -97,11 +97,21 @@ padding-right: 25%;
 }
 
 
-.comentarios{
-  background-color: #6f736e;
-}
-
 .comentarios .icons{
   width: 20px;
   height: 20px;
+}
+.pie{
+  background-color: #760622;
+}
+
+.pie p, h6{
+  color:  white;
+}
+.pie .imgs{
+   padding: 4em;
+}
+
+.pie .titulos{
+ 
 }
