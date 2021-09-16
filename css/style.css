@@ -317,3 +317,36 @@ nav .collapse a:hover {
   top: 480px; 
   left: 550px; 
 }
+
+/* Css de servicios */
+
+.servicios .title-services{
+  position: absolute; 
+  top: 200px; 
+  left: 300px; 
+  color: #760622; 
+  font-size: 100px;
+  font-family: Oswald;
+
+}
+
+.servicios .info1-services{
+
+ font-size: 10px;
+ color: #760622;
+}
+.servicios .info2-services{
+
+  font-size: 10px;
+  color: #760622;
+}
+
+.servicios .info3-services{
+  font-size: 10px;
+ color: #760622;
+}
+
+.servicios .info4-services{
+  font-size: 10px;
+ color: #760622;
+}
