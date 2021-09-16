@@ -263,14 +263,13 @@ nav .collapse a:hover {
   background-color: #a38c8c;
 }
 
-.personal h4,
-.text {
+.personal h4, .text{
   text-align: center;
   color: #7c3535;
   font-family: Oswald;
 }
 
-.personal .separador {
+.personal .separador{
   width: 300px;
   height: 40px;
 }
@@ -279,7 +278,7 @@ nav .collapse a:hover {
   position: absolute; 
   top: 2110px; 
   left: 700px; 
-  color: black; 
+  color: white; 
   font-family: Oswald;
 }
 
@@ -287,7 +286,7 @@ nav .collapse a:hover {
   position: absolute; 
   top: 2110px; 
   left: 850px; 
-  color: black; 
+  color: white; 
   font-family: Oswald;
 }
 
@@ -295,7 +294,7 @@ nav .collapse a:hover {
   position: absolute; 
   top: 2110px; 
   left: 1000px; 
-  color: black; 
+  color: white; 
   font-family: Oswald;
 }
 
@@ -303,18 +302,18 @@ nav .collapse a:hover {
   position: absolute; 
   top: 2160px; 
   left: 700px; 
-  color: black; 
+  color: white; 
 }
 
 .pie .info2-us{
   position: absolute; 
   top: 2230px; 
   left: 700px; 
-  color: black; 
+  color: white; 
 }
 
 .pie .map-us{
   position: absolute; 
-  top: 710px; 
+  top: 480px; 
   left: 550px; 
 }
