@@ -161,6 +161,38 @@ padding-right: 25%;
    padding: 4em;
 }
 
-.pie .titulos{
- 
+/* css de Nosotros */
+
+.history .img{
+  position: relative;
+    top: 100px; /* ajustar los valores para mover la imagen */
+    
+    width: 100px;
+    height: 500px;
+   /* border-radius: 50%; Para volverlo redondo*/
+   
+}
+
+.history .text-h4{
+  position: absolute;
+  top: 180px; 
+  left: 1100px; 
+  color: #d0721f; 
+  font-size: x-large;
+}
+.history .text-h1{
+  position: absolute; 
+  top: 200px; 
+  left: 1000px; 
+  color: #760622; 
+  font-size: 200px;
+  font-family: Oswald;
+}
+.history .text{
+  position: absolute; 
+  top: 300px; 
+  left: 1000px; 
+  color: #760622; 
+  font-family: Roboto;
+  
 }
