@@ -129,8 +129,7 @@ nav .collapse a:hover {
   padding-right: 25%;
 }
 
-.event h1,
-h3 {
+.event h1,h3 {
   color: #ffff;
   font-family: Oswald;
   text-align: center;
@@ -157,6 +156,16 @@ h3 {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.comentarios .img{
+  position: absolute; 
+  top: 10px; 
+  left: 750px;
+  
+}
+
+>>>>>>> df718e733c675a249fa9841b2b0fb597a75a1a45
 .comentarios .icons {
   width: 20px;
   height: 20px;
@@ -165,10 +174,56 @@ h3 {
   background-color: #760622;
 }
 
+<<<<<<< HEAD
 .pie p,
 h6 {
   color: white;
+=======
+.pie .title1-index{
+  position: absolute; 
+  top: 2810px; 
+  left: 700px; 
+  color: white; 
+  font-family: Oswald;
 }
+
+.pie .title2-index{
+  position: absolute; 
+  top: 2810px; 
+  left: 850px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .title3-index{
+  position: absolute; 
+  top: 2810px; 
+  left: 1000px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .info1-index{
+  position: absolute; 
+  top: 2860px; 
+  left: 700px; 
+  color: white; 
+}
+
+.pie .info2-index{
+  position: absolute; 
+  top: 2930px; 
+  left: 700px; 
+  color: white; 
+}
+
+.pie .map{
+  position: absolute; 
+  top: 1410px; 
+  left: 550px; 
+>>>>>>> df718e733c675a249fa9841b2b0fb597a75a1a45
+}
+
 .pie .imgs {
   padding: 4em;
 }
@@ -225,4 +280,48 @@ h6 {
 .personal .separador {
   width: 300px;
   height: 40px;
+}
+
+.pie .title1-us{
+  position: absolute; 
+  top: 2110px; 
+  left: 700px; 
+  color: black; 
+  font-family: Oswald;
+}
+
+.pie .title2-us{
+  position: absolute; 
+  top: 2110px; 
+  left: 850px; 
+  color: black; 
+  font-family: Oswald;
+}
+
+.pie .title3-us{
+  position: absolute; 
+  top: 2110px; 
+  left: 1000px; 
+  color: black; 
+  font-family: Oswald;
+}
+
+.pie .info1-us{
+  position: absolute; 
+  top: 2160px; 
+  left: 700px; 
+  color: black; 
+}
+
+.pie .info2-us{
+  position: absolute; 
+  top: 2230px; 
+  left: 700px; 
+  color: black; 
+}
+
+.pie .map-us{
+  position: absolute; 
+  top: 710px; 
+  left: 550px; 
 }
