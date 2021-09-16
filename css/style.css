@@ -347,12 +347,26 @@ h3 {
   color: #760622;
 }
 
-/* Page Mapa*/
+/* Css de Mapa*/
+.conta-title {
+  margin-top: 6rem;
+  margin-left: 20vmin;
+}
+.conta-subtitle {
+  margin-left: 20vmin;
+  margin-right: 20vmin;
+}
 
 .title {
   color: #760622;
+  font-family: Oswald;
 }
 
 .subtitle {
+  color: #760622;
+  font-family: Oswald;
+}
+
+.subtitle a{
   color: #760622;
 }
