@@ -156,8 +156,7 @@ nav .collapse a:hover {
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
+
 .comentarios .img{
   position: absolute; 
   top: 10px; 
@@ -165,7 +164,6 @@ nav .collapse a:hover {
   
 }
 
->>>>>>> df718e733c675a249fa9841b2b0fb597a75a1a45
 .comentarios .icons {
   width: 20px;
   height: 20px;
@@ -174,14 +172,10 @@ nav .collapse a:hover {
   background-color: #760622;
 }
 
-<<<<<<< HEAD
-.pie p,
-h6 {
-  color: white;
-=======
+
 .pie .title1-index{
   position: absolute; 
-  top: 2810px; 
+  top: 3250px; 
   left: 700px; 
   color: white; 
   font-family: Oswald;
@@ -189,7 +183,7 @@ h6 {
 
 .pie .title2-index{
   position: absolute; 
-  top: 2810px; 
+  top: 3250px; 
   left: 850px; 
   color: white; 
   font-family: Oswald;
@@ -197,7 +191,7 @@ h6 {
 
 .pie .title3-index{
   position: absolute; 
-  top: 2810px; 
+  top: 3250px; 
   left: 1000px; 
   color: white; 
   font-family: Oswald;
@@ -205,23 +199,22 @@ h6 {
 
 .pie .info1-index{
   position: absolute; 
-  top: 2860px; 
+  top: 3300px; 
   left: 700px; 
   color: white; 
 }
 
 .pie .info2-index{
   position: absolute; 
-  top: 2930px; 
+  top: 3360px; 
   left: 700px; 
   color: white; 
 }
 
 .pie .map{
   position: absolute; 
-  top: 1410px; 
+  top: 1620px; 
   left: 550px; 
->>>>>>> df718e733c675a249fa9841b2b0fb597a75a1a45
 }
 
 .pie .imgs {
