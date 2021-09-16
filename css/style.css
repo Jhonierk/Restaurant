@@ -128,8 +128,7 @@ nav .collapse a:hover {
   padding-right: 25%;
 }
 
-.event h1,
-h3 {
+.event h1,h3 {
   color: #ffff;
   font-family: Oswald;
   text-align: center;
@@ -156,6 +155,12 @@ h3 {
   text-align: center;
 }
 
+.comentarios .img{
+  position: absolute; 
+  top: 10px; 
+  left: 750px;
+  
+}
 
 .comentarios .icons {
   width: 20px;
@@ -165,9 +170,50 @@ h3 {
   background-color: #760622;
 }
 
-.pie p,h6 {
-  color: white;
+.pie .title1-index{
+  position: absolute; 
+  top: 2810px; 
+  left: 700px; 
+  color: white; 
+  font-family: Oswald;
 }
+
+.pie .title2-index{
+  position: absolute; 
+  top: 2810px; 
+  left: 850px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .title3-index{
+  position: absolute; 
+  top: 2810px; 
+  left: 1000px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .info1-index{
+  position: absolute; 
+  top: 2860px; 
+  left: 700px; 
+  color: white; 
+}
+
+.pie .info2-index{
+  position: absolute; 
+  top: 2930px; 
+  left: 700px; 
+  color: white; 
+}
+
+.pie .map{
+  position: absolute; 
+  top: 1410px; 
+  left: 550px; 
+}
+
 .pie .imgs {
   padding: 4em;
 }
