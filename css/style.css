@@ -274,3 +274,47 @@ nav .collapse a:hover {
   width: 300px;
   height: 40px;
 }
+
+.pie .title1-us{
+  position: absolute; 
+  top: 2110px; 
+  left: 700px; 
+  color: black; 
+  font-family: Oswald;
+}
+
+.pie .title2-us{
+  position: absolute; 
+  top: 2110px; 
+  left: 850px; 
+  color: black; 
+  font-family: Oswald;
+}
+
+.pie .title3-us{
+  position: absolute; 
+  top: 2110px; 
+  left: 1000px; 
+  color: black; 
+  font-family: Oswald;
+}
+
+.pie .info1-us{
+  position: absolute; 
+  top: 2160px; 
+  left: 700px; 
+  color: black; 
+}
+
+.pie .info2-us{
+  position: absolute; 
+  top: 2230px; 
+  left: 700px; 
+  color: black; 
+}
+
+.pie .map-us{
+  position: absolute; 
+  top: 710px; 
+  left: 550px; 
+}
