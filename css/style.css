@@ -92,6 +92,7 @@ nav .collapse a:hover {
 .proposal {
   background-image: url("../assets/foto2@2x.png");
   background-size: cover;
+  background-position: bottom;
   height: 700px;
   padding-top: 100px;
   padding-left: 25%;
@@ -114,7 +115,7 @@ nav .collapse a:hover {
   height: 200px;
 }
 
-.chef-btn{
+.chef-btn {
   background-color: #760622;
   color: white;
 }
@@ -156,7 +157,6 @@ h3 {
   text-align: center;
 }
 
-
 .comentarios .icons {
   width: 20px;
   height: 20px;
@@ -165,7 +165,8 @@ h3 {
   background-color: #760622;
 }
 
-.pie p,h6 {
+.pie p,
+h6 {
   color: white;
 }
 .pie .imgs {
@@ -174,57 +175,54 @@ h3 {
 
 /* css de Nosotros */
 
-.history .img{
+.history .img {
   position: relative;
-    top: 100px; /* ajustar los valores para mover la imagen */
-    
-    width: 100px;
-    height: 500px;
-   /* border-radius: 50%; Para volverlo redondo*/
-   
+  top: 100px; /* ajustar los valores para mover la imagen */
+
+  width: 100px;
+  height: 500px;
+  /* border-radius: 50%; Para volverlo redondo*/
 }
 
-.history .text-h4{
+.history .text-h4 {
   position: absolute;
-  top: 180px; 
-  left: 1100px; 
-  color: #d0721f; 
+  top: 180px;
+  left: 1100px;
+  color: #d0721f;
   font-size: x-large;
 }
-.history .text-h1{
-  position: absolute; 
-  top: 200px; 
-  left: 1000px; 
-  color: #760622; 
+.history .text-h1 {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  color: #760622;
   font-size: 200px;
   font-family: Oswald;
 }
-.history .text{
-  position: absolute; 
-  top: 300px; 
-  left: 1000px; 
-  color: #760622; 
+.history .text {
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+  color: #760622;
   font-family: Roboto;
-  
 }
 
-.history p{
+.history p {
   text-align: left;
 }
 
-.personal{
+.personal {
   background-color: #a38c8c;
-
 }
 
-
-.personal h4, .text{
+.personal h4,
+.text {
   text-align: center;
   color: #7c3535;
   font-family: Oswald;
 }
 
-.personal .separador{
+.personal .separador {
   width: 300px;
   height: 40px;
 }
