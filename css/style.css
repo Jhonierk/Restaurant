@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 @font-face {
   font-family: "Oswald";
@@ -13,19 +13,19 @@
 
 nav {
   background-color: #000;
-  opacity: .7;
+  opacity: 0.7;
 }
-nav a{
+nav a {
   color: #fff;
 }
 
-nav a:hover{
+nav a:hover {
   color: orangered !important;
 }
 
 .carousel-subtitle {
-font-size: 50px;
-font-family: Ubuntu;
+  font-size: 50px;
+  font-family: Ubuntu;
 }
 
 .carousel-indicators .active {
@@ -36,81 +36,80 @@ font-family: Ubuntu;
 }
 
 /* css redes sociales */
-.social-bar{
+.social-bar {
   position: fixed;
   right: 0;
   top: 35%;
-  font-size:  1.5rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   z-index: 100;
 }
 
-.icon{
+.icon {
   color: white;
   text-decoration: none;
-  padding: .7rem;
+  padding: 0.7rem;
   display: flex;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.icon-facebook{
+.icon-facebook {
   background: #2e406e;
-
 }
 
-.icon-twitter{
+.icon-twitter {
   background: #339dc5;
 }
 
-.icon-youtube{
+.icon-youtube {
   background: #e83028;
 }
 
-.icon:first-child{
+.icon:first-child {
   border-radius: 1rem 0 0 0;
 }
 
-.icon:last-child{
+.icon:last-child {
   border-radius: 0 0 0 1rem;
 }
 
-.icon:hover{
+.icon:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
 }
 
 /* fin */
 
 .proposal {
-background-image:url("../assets/foto2@2x.png");
-background-size: cover;
-height: 700px;
-padding-top: 100px;
-padding-left: 25%;
-padding-right: 25%;
+  background-image: url("../assets/foto2@2x.png");
+  background-size: cover;
+  height: 700px;
+  padding-top: 100px;
+  padding-left: 25%;
+  padding-right: 25%;
 }
-.proposal .title{
+.proposal .title {
   font-size: 60px;
   font-family: Oswald;
 }
-.proposal .text{
+.proposal .text {
   font-family: Roboto;
-  line-height: 2; 
+  line-height: 2;
 }
 
-.chef{
+.chef {
   font-family: Oswald;
 }
-.menu{
-	width: 250px;
-	height: 200px;
+.menu {
+  width: 250px;
+  height: 200px;
 }
 
-.event{
-  background-image:url("../assets/foto3@2x.png");
+.event {
+  background-image: url("../assets/foto3@2x.png");
   background-size: cover;
   height: 700px;
   padding-top: 100px;
@@ -118,49 +117,49 @@ padding-right: 25%;
   padding-right: 25%;
 }
 
-.event h1, h3{
+.event h1,
+h3 {
   color: #ffff;
   font-family: Oswald;
   text-align: center;
 }
 
-.event h1{
+.event h1 {
   font-size: 60px;
 }
 
-.event p{
+.event p {
   text-align: justify;
   color: #ffff;
 }
 
-.event .imgs{
-  display:block;
-  margin:auto;
+.event .imgs {
+  display: block;
+  margin: auto;
   width: 150px;
   height: 100px;
 }
 
-.event .fas{
+.event .fas {
   color: #fff;
   text-align: center;
 }
 
-
-.comentarios .icons{
+.comentarios .icons {
   width: 20px;
   height: 20px;
 }
-.pie{
+.pie {
   background-color: #760622;
 }
 
-.pie p, h6{
-  color:  white;
+.pie p,
+h6 {
+  color: white;
 }
-.pie .imgs{
-   padding: 4em;
+.pie .imgs {
+  padding: 4em;
 }
 
-.pie .titulos{
- 
+.pie .titulos {
 }
