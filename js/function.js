@@ -1,0 +1,1 @@
+$("#pregunta").click(()=>(window.location.href='../pages/Mapa.html'))
