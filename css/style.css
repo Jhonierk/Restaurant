@@ -362,6 +362,10 @@ h3 {
 
 }
 
+.servicio-card{
+  background-color: #e5e1e2;
+}
+
 .pie .title1-service{
   position: absolute; 
   top: 1700px; 
@@ -408,6 +412,15 @@ h3 {
 
 
 /* Css de Menú*/
+.menu-conta-title {
+  margin-top: 6rem;
+}
+
+.menu-title {
+  color: #760622;
+  font-size: 50px !important;
+  font-family: Oswald;
+}
 .btn-menu {
   background-color: rgb(255 58 3);
   color: #fff;
@@ -423,6 +436,12 @@ h3 {
 }
 
 @media (max-width: 600px){
+
+  .menu-row-title {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
   .card-v {
     margin-left: auto;
     margin-right: auto;
@@ -439,15 +458,23 @@ h3 {
   width: 23rem;
 }
 
+.menu-modal{
+  max-width: 600px !important;
+}
+.modal-title {
+  color: #760622;
+
+}
+
+
+
+.btn-modal{
+  background-color: rgb(255 58 3);
+  color: #fff;
+}
+
+
 /* Css de Mapa*/
-.conta-title {
-  margin-top: 6rem;
-  margin-left: 20vmin;
-}
-.conta-subtitle {
-  margin-left: 20vmin;
-  margin-right: 20vmin;
-}
 
 .title {
   color: #760622;
