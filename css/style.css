@@ -347,6 +347,38 @@ h3 {
   color: #760622;
 }
 
+/* Css de Menú*/
+.btn-menu {
+  background-color: rgb(255 58 3);
+  color: #fff;
+}
+
+.card-n {
+  background-color: rgb(255 58 3);
+}
+
+.card-v {
+  background-color: #760622;
+
+}
+
+@media (max-width: 600px){
+  .card-v {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-n {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.img-card {
+  height: 226px;
+  width: 23rem;
+}
+
 /* Css de Mapa*/
 .conta-title {
   margin-top: 6rem;
@@ -367,6 +399,6 @@ h3 {
   font-family: Oswald;
 }
 
-.subtitle a{
+.subtitle a {
   color: #760622;
 }
