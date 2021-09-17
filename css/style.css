@@ -347,6 +347,66 @@ h3 {
   color: #760622;
 }
 
+.servicio-contact .title-service{
+  font-family: Oswald;
+  color: #760622;
+}
+
+.servicio-contact .text-service{
+  color: #760622;
+}
+
+.servicio-contact .contact-btn{
+  background-color: #ff4d00;
+  color: white;
+
+}
+
+.pie .title1-service{
+  position: absolute; 
+  top: 1700px; 
+  left: 700px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .title2-service{
+  position: absolute; 
+  top: 2110px; 
+  left: 850px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .title3-service{
+  position: absolute; 
+  top: 2110px; 
+  left: 1000px; 
+  color: white; 
+  font-family: Oswald;
+}
+
+.pie .info1-service{
+  position: absolute; 
+  top: 2160px; 
+  left: 700px; 
+  color: white; 
+}
+
+.pie .info2-service{
+  position: absolute; 
+  top: 2230px; 
+  left: 700px; 
+  color: white; 
+}
+
+.pie .map-service{
+  position: absolute; 
+  top: 480px; 
+  left: 550px; 
+}
+
+
 /* Css de Menú*/
 .btn-menu {
   background-color: rgb(255 58 3);
