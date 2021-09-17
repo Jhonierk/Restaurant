@@ -474,7 +474,9 @@ h3 {
 
 
 /* Css de Mapa*/
-
+.map a:hover{
+  text-decoration: none;
+}
 
 .map-title {
   color: #760622;
