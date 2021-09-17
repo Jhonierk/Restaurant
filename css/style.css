@@ -558,23 +558,17 @@ a.text-1 {
 
 .pien {
   background-color: #760622;
-  width: 100% !important;
   color: #fff;
 }
 
-.pie-image {
-  height: 200px;
-  width: 300px;
-}
-
-.pie-title {
-  margin-right: auto;
-}
-
-.pie-subtitle {
-  width: 100%;
-}
-
-.fixed-bottom {
+@media only screen and (min-width: 1250px) {
+  .pie-image {
+    max-width: 270px;
+  }
 
 }
+.pie-a{
+  text-decoration: none;
+  font-size: 16px;
+}
+
