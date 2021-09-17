@@ -416,11 +416,18 @@ h3 {
 
 .menu-title {
   color: #760622;
-  font-size: 50px !important;
+  font-size: 80px !important;
   font-family: Oswald;
 }
+
 .btn-menu {
   background-color: rgb(255 58 3);
+  color: #fff;
+  height: 50px;
+  width: 150px;
+}
+
+.btn-menu:hover {
   color: #fff;
 }
 
@@ -465,23 +472,29 @@ h3 {
   color: #fff;
 }
 
+
 /* Css de Mapa*/
 
-.conta-subtitle {
 
+.map-title {
+  color: #760622;
+  font-family: Oswald;
+  font-size: 96px;
 }
 
-.title {
+.map-subtitle {
   color: #760622;
   font-family: Oswald;
 }
 
-.subtitle {
-  color: #760622;
-  font-family: Oswald;
+@media only screen and (min-width: 1250px) {
+  .map-subtitle  {
+    height: 300px;
+  }
+
 }
 
-.subtitle a {
+.map-subtitle a {
   color: #760622;
 }
 
@@ -571,4 +584,8 @@ a.text-1 {
   text-decoration: none;
   font-size: 16px;
 }
+.pie-a:hover{
+  text-decoration: none;
+}
+
 
