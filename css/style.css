@@ -467,6 +467,10 @@ h3 {
 
 /* Css de Mapa*/
 
+.conta-subtitle {
+
+}
+
 .title {
   color: #760622;
   font-family: Oswald;
@@ -547,4 +551,30 @@ a.text-1 {
   .logo-footer {
     max-width: 264.75px;
   }
+
+}
+
+/* Css de Pie Nuevo*/
+
+.pien {
+  background-color: #760622;
+  width: 100% !important;
+  color: #fff;
+}
+
+.pie-image {
+  height: 200px;
+  width: 300px;
+}
+
+.pie-title {
+  margin-right: auto;
+}
+
+.pie-subtitle {
+  width: 100%;
+}
+
+.fixed-bottom {
+
 }
