@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sal&Salsa - Contacto</title>
+
+    <link rel="icon" type="image/png" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Social networks icons -->
+    <link rel="stylesheet" type="text/css" href="../css/font.css">
+
+    <!-- Bootstrap's Scripts -->
+    <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark text-light ">
+            <a class="navbar-brand nav-title font-weight-bold" href="../index.html">SAL&SALSA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarScroll">
+                <ul class="navbar-nav mr-auto mr-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Nosotros.html">NOSOTROS</a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="#">EL MENÚ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./contacto.html">CONTÁCTANOS</a>
+                    </li>
+            </div>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Social networks -->
+    <div class="social-bar">
+        <a href="https://www.facebook.com/salysalsa.es/" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/salsasal13" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/watch?v=YPIPRbWuKg4&t=60s" class="icon icon-youtube" target="_blank"></a>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row my-7 mx-0">
+            <div class="col-12">
+                <h1 class="mb-0 title text-6">Contáctanos</h1>
+            </div>
+        </div>
+        <div class="row mx-0">
+            <div class="col-12 mb-3 col-lg-6 mb-lg-0">
+                <p class=" text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit in odio libero
+                    est corporis
+                    magni quo modi iure incidunt non, adipisci eos amet magnam ad distinctio dolores molestiae at
+                    laboriosam omnis accusantium totam qui illo. Illum fugit tenetur eos officia dolorum reprehenderit
+                    recusandae sint cupiditate perferendis eveniet? Repellendus, illo? Harum.</p>
+
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ut accusamus nihil
+                    necessitatibus
+                    ipsa consequatur delectus soluta tenetur eaque fuga aliquid possimus, impedit neque maiores,
+                    laboriosam reiciendis commodi aperiam obcaecati. Eum nostrum, quae perferendis mollitia
+                    necessitatibus aut vero laboriosam cupiditate doloremque ea natus nobis molestias unde magnam,
+                    dolores esse culpa?</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <form action="mailto:reservas@salysalsa.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option value="" selected>Seleccione el servicio</option>
+                            <option value="1">Celebración de cumpleaños</option>
+                            <option value="2">Aniversarios</option>
+                            <option value="3">Fiestas infantiles</option>
+                            <option value="4">Declaraciones o propuestas</option>
+                            <option value="5">Despedidas</option>
+                            <option value="6">Cenas con amigos</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control field" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre completo" required minlength="15"
+                            maxlength="40" pattern="([a-zA-ZáéíóúÁÉÍÓÚñÑ]+[ ]+[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+)+">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Correo electrónico" required
+                            minlength="10" maxlength="40">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Su mensaje" required minlength="10"
+                            maxlength="100"></textarea>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label text font-italic" for="exampleCheck1">Acepto términos y
+                            condiciones</label>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-orange px-7 py-3 font-weight-bold">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid mt-5 bg-red py-5 px-5">
+        <div class="row ">
+            <div class="col-12 mb-3 col-sm-6 mb-sm-0 col-lg-3 mb-lg-0">
+                <img src="../assets/logo@2x.png" alt="Logo Sal&Salsa" class="img-fluid logo-footer">
+            </div>
+            <div class="col-12 mb-3 col-sm-6 mb-sm-0 col-lg-5 mb-lg-0">
+                <div class="d-flex justify-content-between w-links mb-4">
+                    <h3><a href="" class="text-white text-1">MAPA DEL SITIO</a></h3>
+                    <h3><a href="" class="text-white text-1">CONTÁCTANOS</a></h3>
+                    <h3><a href="" class="text-white text-1">RESERVAS</a></h3>
+                </div>
+                <p class="text-white m-0">Restaurante Sal & Salsa Ltda.</p>
+                <p class="text-white m-0">Cl. 52 Nte. #7 Norte-69 Cali</p>
+                <p class="text-white m-0">reservas@salysalsa.com</p>
+                <p class="text-white ">312 325 25 32</p>
+                <p class="text-white">©Copyright 2021</p>
+            </div>
+            <div class="col-12 mt-sm-3 col-lg-3 mt-lg-0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.46445858287!2d-76.50901795999664!3d3.4792491483021735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a62bc37c4f31%3A0xf860f89d16cd026d!2sCl.%2052%20Nte.%20%237%20Norte-69%20a%207%20Norte-1%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1631730792190!5m2!1ses!2sco"
+                    allowfullscreen="" loading="lazy" class="w-100 h-100"></iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

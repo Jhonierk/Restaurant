@@ -347,69 +347,67 @@ h3 {
   color: #760622;
 }
 
-.servicio-contact .title-service{
+.servicio-contact .title-service {
   font-family: Oswald;
   color: #760622;
 }
 
-.servicio-contact .text-service{
+.servicio-contact .text-service {
   color: #760622;
 }
 
-.servicio-contact .contact-btn{
+.servicio-contact .contact-btn {
   background-color: #ff4d00;
   color: white;
-
 }
 
-.servicio-card{
+.servicio-card {
   background-color: #e5e1e2;
 }
 
-.pie .title1-service{
-  position: absolute; 
-  top: 1700px; 
-  left: 700px; 
-  color: white; 
+.pie .title1-service {
+  position: absolute;
+  top: 1700px;
+  left: 700px;
+  color: white;
   font-family: Oswald;
 }
 
-.pie .title2-service{
-  position: absolute; 
-  top: 2110px; 
-  left: 850px; 
-  color: white; 
+.pie .title2-service {
+  position: absolute;
+  top: 2110px;
+  left: 850px;
+  color: white;
   font-family: Oswald;
 }
 
-.pie .title3-service{
-  position: absolute; 
-  top: 2110px; 
-  left: 1000px; 
-  color: white; 
+.pie .title3-service {
+  position: absolute;
+  top: 2110px;
+  left: 1000px;
+  color: white;
   font-family: Oswald;
 }
 
-.pie .info1-service{
-  position: absolute; 
-  top: 2160px; 
-  left: 700px; 
-  color: white; 
+.pie .info1-service {
+  position: absolute;
+  top: 2160px;
+  left: 700px;
+  color: white;
 }
 
-.pie .info2-service{
-  position: absolute; 
-  top: 2230px; 
-  left: 700px; 
-  color: white; 
+.pie .info2-service {
+  position: absolute;
+  top: 2230px;
+  left: 700px;
+  color: white;
 }
 
-.pie .map-service{
-  position: absolute; 
-  top: 480px; 
-  left: 550px; 
+.pie .map-service {
+  position: absolute;
+  top: 480px;
+  left: 550px;
 }
-
 
 /* Css de Menú*/
 .menu-conta-title {
@@ -432,15 +430,12 @@ h3 {
 
 .card-v {
   background-color: #760622;
-
 }
 
-@media (max-width: 600px){
-
+@media (max-width: 600px) {
   .menu-row-title {
     margin-left: auto;
     margin-right: auto;
-
   }
   .card-v {
     margin-left: auto;
@@ -458,21 +453,17 @@ h3 {
   width: 23rem;
 }
 
-.menu-modal{
+.menu-modal {
   max-width: 600px !important;
 }
 .modal-title {
   color: #760622;
-
 }
 
-
-
-.btn-modal{
+.btn-modal {
   background-color: rgb(255 58 3);
   color: #fff;
 }
-
 
 /* Css de Mapa*/
 
@@ -488,4 +479,72 @@ h3 {
 
 .subtitle a {
   color: #760622;
+}
+
+/* Css de Contacto*/
+.my-7 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.px-7 {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 490px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+.text {
+  text-align: left;
+  font-family: Roboto;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  color: #91908b;
+  background-color: #dfded9;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #ff3c04;
+  border-color: #ff3c04;
+}
+.btn-orange:hover {
+  color: #fff;
+  background-color: #801e03;
+  border-color: #400f01;
+}
+
+.bg-red {
+  background-color: #760622;
+}
+
+.text-1 {
+  font-size: 1rem;
+}
+
+a.text-1 {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .w-links {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1235px) {
+  .logo-footer {
+    max-width: 264.75px;
+  }
 }
