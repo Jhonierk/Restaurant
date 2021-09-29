@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sal&Salsa</title>
-    <link rel="icon" type="image/png" href="../assets/favicon.png" />
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link type="image/png" href="../assets/favicon.png" rel="icon">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--Iconos en fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../css/style.css" rel="stylesheet">
     <!-- Iconos redes sociales -->
-    <link rel="stylesheet" type="text/css" href="../css/font.css">
+    <link type="text/css" href="../css/font.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark text-light">
             <a class="navbar-brand nav-title font-weight-bold" href="../index.html">SAL&SALSA</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+            <button class="navbar-toggler" data-target="#navbarScroll" data-toggle="collapse" type="button"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,7 +30,7 @@
 
                     <li class="nav-item">
                         <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Nosotros.html">NOSOTROS</a>
-                        </a>
+
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Menu.html">EL MENÚ</a>
@@ -47,16 +47,17 @@
                             <i class="fa-solid fa-cart-shopping"></i>
                         </a>
                     </li>
+                </ul>
             </div>
-            </ul>
-            </div>
+
+
         </nav>
     </header>
     <!-- Redes sociales -->
     <div class="social-bar">
-        <a href="https://www.facebook.com/salysalsa.es/" class="icon icon-facebook" target="_blank"></a>
-        <a href="https://twitter.com/salsasal13" class="icon icon-twitter" target="_blank"></a>
-        <a href="https://www.youtube.com/watch?v=YPIPRbWuKg4&t=60s" class="icon icon-youtube" target="_blank"></a>
+        <a class="icon icon-facebook" href="https://www.facebook.com/salysalsa.es/" target="_blank"></a>
+        <a class="icon icon-twitter" href="https://twitter.com/salsasal13" target="_blank"></a>
+        <a class="icon icon-youtube" href="https://www.youtube.com/watch?v=YPIPRbWuKg4&t=60s" target="_blank"></a>
     </div>
     <!-- Titulo -->
     <section>
@@ -70,7 +71,7 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 col-mb">
-                    <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
+                    <img class="card-img-top img-card" src="../assets/menu1@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
@@ -82,20 +83,19 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button type="button" class="btn font-weight-bold">-</button>
-                        <input type="text" class="pedido-input">
-                        <button type="button" class="btn font-weight-bold">+</button>
+                        <button class="btn font-weight-bold" type="button">-</button>
+                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
+                        <button class="btn font-weight-bold" type="button">+</button>
                     </div>
-
-                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
-                        <i class="fas fa-cart-plus"></i>
-                        AÑADIR AL CARRITO</a>
-
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
+                        <i class="fas fa-cart-plus mr-2 "></i>
+                        AÑADIR AL CARRITO
+                    </a>
                 </div>
             </div>
             <div class="row mb-4">
                 <div class="col-lg-4 col-mb">
-                    <img src="../assets/menu2@2x.png" class="card-img-top img-card" alt="...">
+                    <img class="card-img-top img-card" src="../assets/menu2@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
@@ -107,19 +107,19 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button type="button" class="btn font-weight-bold">-</button>
-                        <input type="text" class="pedido-input">
-                        <button type="button" class="btn font-weight-bold">+</button>
+                        <button class="btn font-weight-bold" type="button">-</button>
+                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
+                        <button class="btn font-weight-bold" type="button">+</button>
                     </div>
-
-                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
-                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
-
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
+                        <i class="fas fa-cart-plus mr-2"></i>
+                        AÑADIR AL CARRITO
+                    </a>
                 </div>
             </div>
             <div class="row mb-4">
                 <div class="col-lg-4 col-mb">
-                    <img src="../assets/menu3@2x.png" class="card-img-top img-card" alt="...">
+                    <img class="card-img-top img-card" src="../assets/menu3@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
@@ -131,19 +131,19 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button type="button" class="btn font-weight-bold">-</button>
-                        <input type="text" class="pedido-input">
-                        <button type="button" class="btn font-weight-bold">+</button>
+                        <button class="btn font-weight-bold" type="button">-</button>
+                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
+                        <button class="btn font-weight-bold" type="button">+</button>
                     </div>
-
-                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
-                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
-
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
+                        <i class="fas fa-cart-plus mr-2"></i>
+                        AÑADIR AL CARRITO
+                    </a>
                 </div>
             </div>
             <div class="row mb-4">
                 <div class="col-lg-4 col-mb">
-                    <img src="../assets/menu4@2x.png" class="card-img-top img-card" alt="...">
+                    <img class="card-img-top img-card" src="../assets/menu4@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
@@ -155,19 +155,19 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button type="button" class="btn font-weight-bold">-</button>
-                        <input type="text" class="pedido-input">
-                        <button type="button" class="btn font-weight-bold">+</button>
+                        <button class="btn font-weight-bold" type="button">-</button>
+                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
+                        <button class="btn font-weight-bold" type="button">+</button>
                     </div>
-
-                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
-                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
-
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
+                        <i class="fas fa-cart-plus mr-2"></i>
+                        AÑADIR AL CARRITO
+                    </a>
                 </div>
             </div>
             <div class="row mb-4">
                 <div class="col-lg-4 col-mb">
-                    <img src="../assets/menu5@2x.png" class="card-img-top img-card" alt="...">
+                    <img class="card-img-top img-card" src="../assets/menu5@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
@@ -179,14 +179,14 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button type="button" class="btn font-weight-bold">-</button>
-                        <input type="text" class="pedido-input">
-                        <button type="button" class="btn font-weight-bold">+</button>
+                        <button class="btn font-weight-bold" type="button">-</button>
+                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
+                        <button class="btn font-weight-bold" type="button">+</button>
                     </div>
-
-                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
-                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
-
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
+                        <i class="fas fa-cart-plus mr-2"></i>
+                        AÑADIR AL CARRITO
+                    </a>
                 </div>
             </div>
         </div>
@@ -197,13 +197,13 @@
         <div class="container-fluid mt-5 py-5 px-5 pien">
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-lg-0">
-                    <img src="../assets/logo@2x.png" class="img-fluid pie-image" alt="Logo Sal&Salsa">
+                    <img class="img-fluid pie-image" src="../assets/logo@2x.png" alt="Logo Sal&Salsa">
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
                     <div class="d-flex justify-content-between w-links">
-                        <h3><a href="./Mapa.html" class="text-light pie-a">MAPA DEL SITIO</a></h3>
-                        <h3><a href="./Contactanos.html" class="text-light pie-a">CONTÁCTANOS</a></h3>
-                        <h3><a href="" class="text-light pie-a">RESERVAS</a></h3>
+                        <h3><a class="text-light pie-a" href="./Mapa.html">MAPA DEL SITIO</a></h3>
+                        <h3><a class="text-light pie-a" href="./Contactanos.html">CONTÁCTANOS</a></h3>
+                        <h3><a class="text-light pie-a" href>RESERVAS</a></h3>
                     </div>
                     <div class="">
                         <p class="text-light m-0">Restaurante Sal y Salsa Ltda.</p>
@@ -216,10 +216,10 @@
                 <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
 
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas"
+                        <div class="gmap_canvas"><iframe id="gmap_canvas"
                                 src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                href="https://2piratebay.org"></a><br>
+                                width="300" height="200" frameborder="0" scrolling="no" marginheight="0"
+                                marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
                             <style>
                                 .mapouter {
                                     position: relative;

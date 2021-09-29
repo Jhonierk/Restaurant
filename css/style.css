@@ -11,7 +11,7 @@
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
 }
 
-.title-color{
+.title-color {
   color: #760622;
 }
 
@@ -471,6 +471,11 @@ h3 {
   color: #760622;
 }
 
+.btn-modal-pedido {
+  background-color: #760622;
+  color: #fff;
+}
+
 .btn-modal {
   background-color: rgb(255 58 3);
   color: #fff;
@@ -478,7 +483,7 @@ h3 {
 
 
 /* Css de Mapa*/
-.map a:hover{
+.map a:hover {
   text-decoration: none;
 }
 
@@ -494,10 +499,9 @@ h3 {
 }
 
 @media only screen and (min-width: 1250px) {
-  .map-subtitle  {
+  .map-subtitle {
     height: 300px;
   }
-
 }
 
 .map-subtitle a {
@@ -572,7 +576,6 @@ a.text-1 {
   .logo-footer {
     max-width: 264.75px;
   }
-
 }
 
 /* Css de footer*/
@@ -586,13 +589,12 @@ a.text-1 {
   .pie-image {
     max-width: 270px;
   }
-
 }
-.pie-a{
+.pie-a {
   text-decoration: none;
   font-size: 16px;
 }
-.pie-a:hover{
+.pie-a:hover {
   text-decoration: none;
 }
 
@@ -609,19 +611,26 @@ a.text-1 {
   font-family: Oswald;
 }
 
-.pedido-plate, .value {
+.pedido-plate,
+.value {
   color: #760622;
   font-family: Oswald;
 }
 
-.w-33{
-  width: 33% !important
+.w-33 {
+  width: 33% !important;
 }
 
-.pedido-input{
-  width:36px;
+.pedido-input {
+  width: 36px;
 }
-.pedido-btn-add{
+.pedido-btn-add {
   background-color: rgb(255 58 3);
   color: #fff;
+  height: 40px;
+}
+
+.pedido-btn-add
+i {
+line-height: inherit;
 }
