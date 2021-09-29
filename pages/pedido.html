@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,8 @@
     <title>Sal&Salsa</title>
     <link rel="icon" type="image/png" href="../assets/favicon.png" />
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!--Iconos en fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="../css/style.css" />
     <!-- Iconos redes sociales -->
@@ -37,10 +39,13 @@
                         <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Servicios.html">SERVICIOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Contactanos.html">PEDIDOS</a>
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white"
+                            href="./Contactanos.html">CONTÁCTANOS</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="./Contactanos.html"><img src="../assets/icons/carrito.png"/></a>
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Pedido.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
                     </li>
             </div>
             </ul>
@@ -55,130 +60,136 @@
     </div>
     <!-- Titulo -->
     <section>
-        <div class="container mt-5 mb-2">
+        <div class="container mt-5 mb-5">
             <div class="row ml-4">
-                <h2 class="map-title">HAZ TU PEDIDO</h2>
+                <h2 class="pedido-title">Haz tu pedido</h2>
             </div>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
-
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    
+            <div class="row mb-4">
+                <div class="col-lg-4 col-mb">
                     <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
                 </div>
-                <div class="col-sm">
-                    <h4>Lorem impum dolor sit</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa distinctio repellendus exercitationem cumque sunt similique ut!</p>
-                    <h4>$25.000</h4>
+                <div class="col-lg-5 col-mb">
+                    <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                        perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
+                        distinctio repellendus exercitationem cumque sunt similique ut!</p>
+                    <h4 class="value font-weight-bold">$25.000</h4>
                 </div>
-                <div class="col-sm">
-                    <center><h6>Cantidad</h6></center>
-                   <center> <a role="button" class="btn-sm btn btn-menu ml-auto" ><img src="../assets/icons/carrito.png"/>AÑADIR AL CARRITO</a></center>
+                <div class="col-lg-3 col-mb">
+                    <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button type="button" class="btn font-weight-bold">-</button>
+                        <input type="text" class="pedido-input">
+                        <button type="button" class="btn font-weight-bold">+</button>
+                    </div>
+
+                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
+                        <i class="fas fa-cart-plus"></i>
+                        AÑADIR AL CARRITO</a>
 
                 </div>
             </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm">
-                    
-                    <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
+            <div class="row mb-4">
+                <div class="col-lg-4 col-mb">
+                    <img src="../assets/menu2@2x.png" class="card-img-top img-card" alt="...">
                 </div>
-                <div class="col-sm">
-                    <h4>Lorem impum dolor sit</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa distinctio repellendus exercitationem cumque sunt similique ut!</p>
-                    <h4>$25.000</h4>
+                <div class="col-lg-5 col-mb">
+                    <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                        perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
+                        distinctio repellendus exercitationem cumque sunt similique ut!</p>
+                    <h4 class="value font-weight-bold">$25.000</h4>
                 </div>
-                <div class="col-sm">
-                    <center><h6>Cantidad</h6></center>
-                   <center> <a role="button" class="btn-sm btn btn-menu ml-auto" ><img src="../assets/icons/carrito.png"/>AÑADIR AL CARRITO</a></center>
+                <div class="col-lg-3 col-mb">
+                    <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button type="button" class="btn font-weight-bold">-</button>
+                        <input type="text" class="pedido-input">
+                        <button type="button" class="btn font-weight-bold">+</button>
+                    </div>
+
+                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
+                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
 
                 </div>
             </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm">
-                    
-                    <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
+            <div class="row mb-4">
+                <div class="col-lg-4 col-mb">
+                    <img src="../assets/menu3@2x.png" class="card-img-top img-card" alt="...">
                 </div>
-                <div class="col-sm">
-                    <h4>Lorem impum dolor sit</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa distinctio repellendus exercitationem cumque sunt similique ut!</p>
-                    <h4>$25.000</h4>
+                <div class="col-lg-5 col-mb">
+                    <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                        perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
+                        distinctio repellendus exercitationem cumque sunt similique ut!</p>
+                    <h4 class="value font-weight-bold">$25.000</h4>
                 </div>
-                <div class="col-sm">
-                    <center><h6>Cantidad</h6></center>
-                   <center> <a role="button" class="btn-sm btn btn-menu ml-auto" ><img src="../assets/icons/carrito.png"/>AÑADIR AL CARRITO</a></center>
+                <div class="col-lg-3 col-mb">
+                    <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button type="button" class="btn font-weight-bold">-</button>
+                        <input type="text" class="pedido-input">
+                        <button type="button" class="btn font-weight-bold">+</button>
+                    </div>
+
+                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
+                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
 
                 </div>
             </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm">
-                    
-                    <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
+            <div class="row mb-4">
+                <div class="col-lg-4 col-mb">
+                    <img src="../assets/menu4@2x.png" class="card-img-top img-card" alt="...">
                 </div>
-                <div class="col-sm">
-                    <h4>Lorem impum dolor sit</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa distinctio repellendus exercitationem cumque sunt similique ut!</p>
-                    <h4>$25.000</h4>
+                <div class="col-lg-5 col-mb">
+                    <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                        perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
+                        distinctio repellendus exercitationem cumque sunt similique ut!</p>
+                    <h4 class="value font-weight-bold">$25.000</h4>
                 </div>
-                <div class="col-sm">
-                    <center><h6>Cantidad</h6></center>
-                   <center> <a role="button" class="btn-sm btn btn-menu ml-auto" ><img src="../assets/icons/carrito.png"/>AÑADIR AL CARRITO</a></center>
+                <div class="col-lg-3 col-mb">
+                    <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button type="button" class="btn font-weight-bold">-</button>
+                        <input type="text" class="pedido-input">
+                        <button type="button" class="btn font-weight-bold">+</button>
+                    </div>
+
+                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
+                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
 
                 </div>
             </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm">
-                    
-                    <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
+            <div class="row mb-4">
+                <div class="col-lg-4 col-mb">
+                    <img src="../assets/menu5@2x.png" class="card-img-top img-card" alt="...">
                 </div>
-                <div class="col-sm">
-                    <h4>Lorem impum dolor sit</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa distinctio repellendus exercitationem cumque sunt similique ut!</p>
-                    <h4>$25.000</h4>
+                <div class="col-lg-5 col-mb">
+                    <h4 class="pedido-plate font-weight-bold">Lorem impum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                        perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
+                        distinctio repellendus exercitationem cumque sunt similique ut!</p>
+                    <h4 class="value font-weight-bold">$25.000</h4>
                 </div>
-                <div class="col-sm">
-                    <center><h6>Cantidad</h6></center>
-                   <center> <a role="button" class="btn-sm btn btn-menu ml-auto" ><img src="../assets/icons/carrito.png"/>AÑADIR AL CARRITO</a></center>
+                <div class="col-lg-3 col-mb">
+                    <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button type="button" class="btn font-weight-bold">-</button>
+                        <input type="text" class="pedido-input">
+                        <button type="button" class="btn font-weight-bold">+</button>
+                    </div>
+
+                    <a role="button" class=" btn pedido-btn-add  d-flex justify-content-center">
+                        <img src="../assets/icons/carrito.png" />AÑADIR AL CARRITO</a>
 
                 </div>
             </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm">
-                    
-                    <img src="../assets/menu1@2x.png" class="card-img-top img-card" alt="...">
-                </div>
-                <div class="col-sm">
-                    <h4>Lorem impum dolor sit</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa distinctio repellendus exercitationem cumque sunt similique ut!</p>
-                    <h4>$25.000</h4>
-                </div>
-                <div class="col-sm">
-                    <center><h6>Cantidad</h6></center>
-                   <center> <a role="button" class="btn-sm btn btn-menu ml-auto" ><img src="../assets/icons/carrito.png"/>AÑADIR AL CARRITO</a></center>
-
-                </div>
-            </div>
-            <br>
-            <br>
         </div>
-        
-        
-            
     </section>
 
     <!-- Pie de pagina -->

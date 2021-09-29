@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -10,10 +11,8 @@
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <!--Iconos en fontawesome-->
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-
   <!--Iconos en fontawesome-->
-  <link rel="stylesheet" href="../assets/icons/fontawesome/css/all.css">
-
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
   <!-- import the webpage's stylesheet -->
   <link rel="stylesheet" href="../css/style.css" />
   <!-- Iconos redes sociales -->
@@ -22,8 +21,9 @@
 </head>
 
 <body>
+  <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light">
       <a class="navbar-brand nav-title font-weight-bold" href="../index.html">SAL&SALSA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,26 +31,30 @@
       </button>
       <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarScroll">
         <ul class="navbar-nav mr-auto mr-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link mx-lg-5 font-weight-bold" href="./Nosotros.html">NOSOTROS</a>
+
+          <li class="nav-item">
+            <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Nosotros.html">NOSOTROS</a>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-lg-5 font-weight-bold" href="./Menu.html">EL MENÚ</a>
+            <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Menu.html">EL MENÚ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-lg-5 font-weight-bold" href="./Servicios.html">SERVICIOS</a>
+            <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Servicios.html">SERVICIOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-lg-5 font-weight-bold" href="./Contactanos.html">CONTÁCTANOS</a>
+            <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Contactanos.html">CONTÁCTANOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Pedido.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
           </li>
       </div>
       </ul>
       </div>
     </nav>
   </header>
-
-
   <!-- Redes sociales -->
   <div class="social-bar">
     <a href="https://www.facebook.com/salysalsa.es/" class="icon icon-facebook" target="_blank"></a>
@@ -295,56 +299,56 @@
     </div>
 
   </section>
- <!-- Pie de pagina -->
- <footer>
-  <div class="container-fluid mt-5 py-5 px-5 pien">
+  <!-- Pie de pagina -->
+  <footer>
+    <div class="container-fluid mt-5 py-5 px-5 pien">
       <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-lg-0">
-              <img src="../assets/logo@2x.png" class="img-fluid pie-image" alt="Logo Sal&Salsa">
+        <div class="col-lg-4 col-sm-6 mb-lg-0">
+          <img src="../assets/logo@2x.png" class="img-fluid pie-image" alt="Logo Sal&Salsa">
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
+          <div class="d-flex justify-content-between w-links">
+            <h3><a href="./Mapa.html" class="text-light pie-a">MAPA DEL SITIO</a></h3>
+            <h3><a href="./Contactanos.html" class="text-light pie-a">CONTÁCTANOS</a></h3>
+            <h3><a href="" class="text-light pie-a">RESERVAS</a></h3>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
-              <div class="d-flex justify-content-between w-links">
-                  <h3><a href="./Mapa.html" class="text-light pie-a">MAPA DEL SITIO</a></h3>
-                  <h3><a href="./Contactanos.html" class="text-light pie-a">CONTÁCTANOS</a></h3>
-                  <h3><a href="" class="text-light pie-a">RESERVAS</a></h3>
-              </div>
-              <div class="">
-                  <p class="text-light m-0">Restaurante Sal y Salsa Ltda.</p>
-                  <p class="text-light m-0">Calle 19 No. 7-30, Bogotá</p>
-                  <p class="text-light m-0">reservas@salysalsa.com</p>
-                  <p class="text-light">312 325 25 321</p>
-                  <p class="text-light">©Copyright 2021</p>
-              </div>
+          <div class="">
+            <p class="text-light m-0">Restaurante Sal y Salsa Ltda.</p>
+            <p class="text-light m-0">Calle 19 No. 7-30, Bogotá</p>
+            <p class="text-light m-0">reservas@salysalsa.com</p>
+            <p class="text-light">312 325 25 321</p>
+            <p class="text-light">©Copyright 2021</p>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
 
-              <div class="mapouter">
-                  <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas"
-                          src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                          href="https://2piratebay.org"></a><br>
-                      <style>
-                          .mapouter {
-                              position: relative;
-                              text-align: right;
-                              height: 200px;
-                              width: 300px;
-                          }
-                      </style><a href="https://www.embedgooglemap.net">how to embed a google map in wordpress</a>
-                      <style>
-                          .gmap_canvas {
-                              overflow: hidden;
-                              background: none !important;
-                              height: 200px;
-                              width: 300px;
-                          }
-                      </style>
-                  </div>
-              </div>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2piratebay.org"></a><br>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 200px;
+                  width: 300px;
+                }
+              </style><a href="https://www.embedgooglemap.net">how to embed a google map in wordpress</a>
+              <style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 200px;
+                  width: 300px;
+                }
+              </style>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -355,10 +359,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
-</body>
-
-</html>
 
 </body>
 

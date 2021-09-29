@@ -11,6 +11,10 @@
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
 }
 
+.title-color{
+  color: #760622;
+}
+
 nav {
   background-color: #000;
   opacity: 0.7;
@@ -571,7 +575,7 @@ a.text-1 {
 
 }
 
-/* Css de Pie Nuevo*/
+/* Css de footer*/
 
 .pien {
   background-color: #760622;
@@ -592,4 +596,32 @@ a.text-1 {
   text-decoration: none;
 }
 
+/*Css de Pedido*/
 
+.pedido-title {
+  color: #760622;
+  font-family: Oswald;
+  font-size: 96px;
+}
+
+.pedido-plate {
+  color: #760622;
+  font-family: Oswald;
+}
+
+.pedido-plate, .value {
+  color: #760622;
+  font-family: Oswald;
+}
+
+.w-33{
+  width: 33% !important
+}
+
+.pedido-input{
+  width:36px;
+}
+.pedido-btn-add{
+  background-color: rgb(255 58 3);
+  color: #fff;
+}
