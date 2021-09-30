@@ -7,9 +7,9 @@ $("#modal6").click(() => (window.location.href = '../pages/Mapa.html'))
 
 
 function add(number) {
-        var value = document.getElementById(`quantity${number}`).value;
-        var sum = ++value;
-        document.getElementById(`quantity${number}`).value = sum;
+    var value = document.getElementById(`quantity${number}`).value;
+    var sum = ++value;
+    document.getElementById(`quantity${number}`).value = sum;
 }
 
 
@@ -23,15 +23,17 @@ function subtract(number) {
     }
 }
 
-function addcart(number){
-    var image = document.getElementById(`image${number}`).src;
+function addcart(number) {
+    var img = document.getElementById(`image${number}`).src;
+    var image = img.slice(29);
     var title = document.getElementById(`title${number}`).innerHTML;
     var description = document.getElementById(`description${number}`).innerHTML;
-    var cost = document.getElementById(`cost${number}`).innerHTML;
+    var costo = document.getElementById(`cost${number}`).innerHTML;
+    var cost = parseInt(costo.slice(2));
     var quantity = document.getElementById(`quantity${number}`).value;
-    if (quantity==0){
+    if (quantity == 0) {
         alert("Por favor elija la cantidad del plato a pedir");
-    }else{
+    } else {
         localStorage.setItem(`image${number}`, image);
         localStorage.setItem(`title${number}`, title);
         localStorage.setItem(`description${number}`, description);
