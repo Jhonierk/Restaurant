@@ -621,9 +621,14 @@ a.text-1 {
   width: 33% !important;
 }
 
+.btn-cal{
+  font-size: 20px;
+}
+
 .pedido-input {
   width: 36px;
 }
+
 .pedido-btn-add {
   background-color: rgb(255 58 3);
   color: #fff;
@@ -633,4 +638,9 @@ a.text-1 {
 .pedido-btn-add
 i {
 line-height: inherit;
+}
+
+input[type=number]::-webkit-inner-spin-button{ 
+  -webkit-appearance: none; 
+  margin: 0; 
 }

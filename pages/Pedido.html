@@ -21,8 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark text-light">
             <a class="navbar-brand nav-title font-weight-bold" href="../index.html">SAL&SALSA</a>
-            <button class="navbar-toggler" data-target="#navbarScroll" data-toggle="collapse" type="button"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" data-target="#navbarScroll" data-toggle="collapse" type="button" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarScroll">
@@ -39,8 +38,7 @@
                         <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Servicios.html">SERVICIOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-5 font-weight-bold text-white"
-                            href="./Contactanos.html">CONTÁCTANOS</a>
+                        <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Contactanos.html">CONTÁCTANOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-lg-5 font-weight-bold text-white" href="./Pedido.html">
@@ -57,7 +55,7 @@
     <div class="social-bar">
         <a class="icon icon-facebook" href="https://www.facebook.com/salysalsa.es/" target="_blank"></a>
         <a class="icon icon-twitter" href="https://twitter.com/salsasal13" target="_blank"></a>
-        <a class="icon icon-youtube" href="https://www.youtube.com/watch?v=YPIPRbWuKg4&t=60s" target="_blank"></a>
+        <a class="icon icon-youtube" href="https://www.youtube.com/watch?v=Q4iTxkSLA2g" target="_blank"></a>
     </div>
     <!-- Titulo -->
     <section>
@@ -85,9 +83,9 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold" type="button">-</button>
-                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
-                        <button class="btn font-weight-bold" type="button">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(1)">-</button>
+                        <input class="pedido-input" id="input1" type="number" inputmode="numeric">
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(1)">+</button>
                     </div>
                     <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2 "></i>
@@ -109,9 +107,9 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold" type="button">-</button>
-                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
-                        <button class="btn font-weight-bold" type="button">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(2)">-</button>
+                        <input class="pedido-input" id="input2" type="number" inputmode="numeric">
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(2)">+</button>
                     </div>
                     <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
@@ -133,9 +131,9 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold" type="button">-</button>
-                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
-                        <button class="btn font-weight-bold" type="button">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(3)">-</button>
+                        <input class="pedido-input" id="input3" type="number" inputmode="numeric">
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(3)">+</button>
                     </div>
                     <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
@@ -157,9 +155,9 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold" type="button">-</button>
-                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
-                        <button class="btn font-weight-bold" type="button">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(4)">-</button>
+                        <input class="pedido-input" id="input4" type="number" inputmode="numeric">
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(4)">+</button>
                     </div>
                     <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
@@ -181,9 +179,9 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold" type="button">-</button>
-                        <input class="pedido-input" inputmode="numeric" maxlength="3" type="text">
-                        <button class="btn font-weight-bold" type="button">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(5)">-</button>
+                        <input class="pedido-input" id="input5" type="number" inputmode="numeric">
+                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(5)">+</button>
                     </div>
                     <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
@@ -218,10 +216,7 @@
                 <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
 
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                width="300" height="200" frameborder="0" scrolling="no" marginheight="0"
-                                marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
+                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed" width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
                             <style>
                                 .mapouter {
                                     position: relative;
@@ -245,15 +240,10 @@
         </div>
     </footer>
     <!--Scripts-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="../js/function.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
