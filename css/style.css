@@ -424,15 +424,18 @@ h3 {
   font-family: Oswald;
 }
 
+.menu-title-div{
+  flex-grow: 1;
+}
+
 .btn-menu {
   background-color: rgb(255 58 3);
   color: #fff;
-  height: 50px;
-  width: 150px;
 }
 
 .btn-menu:hover {
   color: #fff;
+  
 }
 
 .card-n {
@@ -644,3 +647,4 @@ input[type=number]::-webkit-inner-spin-button{
   -webkit-appearance: none; 
   margin: 0; 
 }
+
