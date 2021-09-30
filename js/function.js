@@ -22,3 +22,7 @@ function subtract(number) {
         document.getElementById(`input${number}`).value = sum;
     }
 }
+
+function addcart(){
+
+}

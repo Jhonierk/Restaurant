@@ -414,8 +414,8 @@ h3 {
 }
 
 /* Css de Menú*/
-.menu-conta-title {
-  margin-top: 6rem;
+.mg-title {
+  margin-top: 7rem;
 }
 
 .menu-title {
@@ -602,8 +602,8 @@ a.text-1 {
 
 .pedido-title {
   color: #760622;
+  font-size: 80px !important;
   font-family: Oswald;
-  font-size: 96px;
 }
 
 .pedido-plate {
