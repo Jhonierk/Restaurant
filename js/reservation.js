@@ -3,6 +3,7 @@ $("#modalReserva").on("show.bs.modal", function (event) {
   const service = button.data("service");
   const modal = $(this);
   const formReservation = $("#formReserva");
+  const btnCancel = $("#btnCancelar");
 
   modal.find(".modal-title").text("Reserva de " + service);
 
@@ -15,7 +16,7 @@ $("#modalReserva").on("show.bs.modal", function (event) {
     }
   });
 
-  $("#formReserva").on("submit", function (event) {
+  formReservation.on("submit", function (event) {
     event.preventDefault();
 
     let formData = new FormData($(this)[0]);
@@ -64,6 +65,6 @@ $("#modalReserva").on("show.bs.modal", function (event) {
 
   modal.on("hidden.bs.modal", function (event) {
     formReservation[0].reset();
-    $(this).modal("dispose");
+    formReservation.off("submit");
   });
 });
