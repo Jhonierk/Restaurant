@@ -40,7 +40,7 @@ $("#modalReserva").on("show.bs.modal", function (event) {
             title: "El correo se ha enviado de forma exitosa",
             text: "Revise su correo electrónico",
             showConfirmButton: false,
-            timer: 1500,
+            timer: 3000,
           });
         }
         formReservation[0].reset();
