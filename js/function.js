@@ -24,6 +24,14 @@ function subtract(number) {
     document.getElementById(`quantity${number}`).value = sum;
   }
 }
+/* Map que contiene los pedidos */
+let pedido = [];
+
+/* Fucnion que arga el map al carga la pagina */
+window.addEventListener("load", function(){
+  localStorage.setItem("pedido", pedido);
+});
+
 
 /* Funcion que guarda los productos al carro y los guarda en el localStorage */
 function addcart(number) {
@@ -31,18 +39,18 @@ function addcart(number) {
   var image = img.slice(29);
   var title = document.getElementById(`title${number}`).innerHTML;
   var costo = document.getElementById(`cost${number}`).innerHTML;
-  var cost = parseInt(costo.slice(2));
+  var cost = 1000*parseFloat(costo.slice(1));
   var quantity = document.getElementById(`quantity${number}`).value;
   if (quantity == 0) {
     alert("Por favor elija la cantidad del plato a pedir");
   } else {
-    let pedido = [];
     pedido.push({
+      item:{
       imagen: image,
       title: title,
       costo: cost,
       cantidad: quantity,
-    });
+    }});
     localStorage.setItem("pedido", pedido);
   }
 }
