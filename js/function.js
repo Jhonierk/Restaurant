@@ -1,3 +1,4 @@
+/* Funcion que */
 $("#modal1").click(() => (window.location.href = "../pages/Mapa.html"));
 $("#modal2").click(() => (window.location.href = "../pages/Mapa.html"));
 $("#modal3").click(() => (window.location.href = "../pages/Mapa.html"));
@@ -5,12 +6,15 @@ $("#modal4").click(() => (window.location.href = "../pages/Mapa.html"));
 $("#modal5").click(() => (window.location.href = "../pages/Mapa.html"));
 $("#modal6").click(() => (window.location.href = "../pages/Mapa.html"));
 
+
+/* Funcion que añade 1 al input de cantidad del producto */
 function add(number) {
   var value = document.getElementById(`quantity${number}`).value;
   var sum = ++value;
   document.getElementById(`quantity${number}`).value = sum;
 }
 
+/* Funcion que resta 1 al input de cantidad del producto */
 function subtract(number) {
   var value = document.getElementById(`quantity${number}`).value;
   var sum = --value;
@@ -21,11 +25,11 @@ function subtract(number) {
   }
 }
 
+/* Funcion que guarda los productos al carro y los guarda en el localStorage */
 function addcart(number) {
   var img = document.getElementById(`image${number}`).src;
   var image = img.slice(29);
   var title = document.getElementById(`title${number}`).innerHTML;
-  var description = document.getElementById(`description${number}`).innerHTML;
   var costo = document.getElementById(`cost${number}`).innerHTML;
   var cost = parseInt(costo.slice(2));
   var quantity = document.getElementById(`quantity${number}`).value;
@@ -33,20 +37,12 @@ function addcart(number) {
     alert("Por favor elija la cantidad del plato a pedir");
   } else {
     let pedido = [];
-
     pedido.push({
       imagen: image,
       title: title,
-      costo: costo,
+      costo: cost,
       cantidad: quantity,
     });
-
     localStorage.setItem("pedido", pedido);
-    /*
-        localStorage.setItem(`image${number}`, image);
-        localStorage.setItem(`title${number}`, title);
-        localStorage.setItem(`description${number}`, description);
-        localStorage.setItem(`cost${number}`, cost);
-        localStorage.setItem(`quantity${number}`, quantity); */
   }
 }
