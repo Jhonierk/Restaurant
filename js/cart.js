@@ -4,11 +4,12 @@ if (!cart) {
 } else {
   setTotalPlatesCart(cart);
   let html = "";
+
   let total = 0;
   cart.forEach((plate) => {
     total += plate.plateAmount * plate.platePrice;
     html =
-      `<div class="row">
+      `<div class="row mb-5" id="${plate.plateId}">
     <div class="col-3"><img src="${
       plate.plateImage
     }" alt="" class="w-100"></div>
@@ -44,16 +45,31 @@ if (!cart) {
           <button class="btn font-weight-bold btn-cal" type="button">+</button>
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col-auto">
-         <a href="./Pedido.html"> <button class="btn pedido-btn-add font-weight-bold">CONTINUAR COMPRANDO</button> </a>
-        </div>
-      </div>
     </div>
   </div>` + html;
   });
+  html += `<div class="row mt-3 justify-content-center">
+  <div class="col-auto">
+    <a href="./Pedido.html" class="btn pedido-btn-add font-weight-bold">CONTINUAR COMPRANDO</a>
+  </div>
+</div>`;
   $("#plates .row .col-8").html(html);
   $("#total").text("$" + total.toLocaleString());
+
+  $(".fas.fa-trash")
+    .parent()
+    .on("click", function (event) {
+      let cartElement = $(this).closest("div[id]").remove();
+      let plateId = parseInt(cartElement.attr("id"));
+
+      let indexToDelete = cart.findIndex((plate) => plate.plateId === plateId);
+      total -= cart[indexToDelete].plateAmount * cart[indexToDelete].platePrice;
+      cart.splice(indexToDelete, 1);
+      localStorage.setItem("cart", JSON.stringify(cart));
+      setTotalPlatesCart(cart);
+
+      $("#total").text("$" + total.toLocaleString());
+    });
 }
 
 function setTotalPlatesCart(cart) {
@@ -62,22 +78,4 @@ function setTotalPlatesCart(cart) {
     totalPlatesCart += plate.plateAmount;
   });
   $("#lblCartCount").text(totalPlatesCart);
-}
-
-
-////Funcion para eliminar producto por ID del LocalStorage
-function deletePlate(productID){
-  let productLs;
-  productLs = this.setTotalPlatesCart();
-  productLs.forEach(function(productLs, index){
-    if(productLs.id === productID){
-      productLs.splice(index,1);
-    }
-  });
-  localStorage.setItem('products', JSON.stringify(productLs))
-}
-
-// Funcion para eliminar completamente el LocalStorage
-vaciarLocalStorage(){
-  localStorage.clear();
 }
