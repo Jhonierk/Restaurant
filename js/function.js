@@ -69,9 +69,6 @@ function setAmount(button, operator) {
 
 
 
-
-
-
 /* Map que contiene los pedidos */
 let pedido = [];
 
