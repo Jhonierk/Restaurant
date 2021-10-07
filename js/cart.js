@@ -46,7 +46,7 @@ if (!cart) {
       </div>
       <div class="row mt-3">
         <div class="col-auto">
-          <button class="btn pedido-btn-add font-weight-bold">CONTINUAR COMPRANDO</button>
+         <a href="./Pedido.html"> <button class="btn pedido-btn-add font-weight-bold">CONTINUAR COMPRANDO</button> </a>
         </div>
       </div>
     </div>
