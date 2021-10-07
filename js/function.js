@@ -70,15 +70,16 @@ function setAmount(button, operator) {
 
 
 /* Map que contiene los pedidos */
-let pedido = [];
-
+/* let pedido = [];
+ */
 /* Fucnion que arga el map al carga la pagina */
-window.addEventListener("load", function () {
+/* window.addEventListener("load", function () {
   localStorage.setItem("pedido", pedido);
-});
+}); */
 
 /* Funcion que guarda los productos al carro y los guarda en el localStorage */
 function addcart(number) {
+  let pedido = [];
   var img = document.getElementById(`image${number}`).src;
   var image = img.slice(29);
   var title = document.getElementById(`title${number}`).innerHTML;
