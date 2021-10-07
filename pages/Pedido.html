@@ -21,7 +21,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-light">
             <a class="navbar-brand nav-title font-weight-bold" href="../index.html">SAL&SALSA</a>
-            <button class="navbar-toggler" data-target="#navbarScroll" data-toggle="collapse" type="button" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" data-target="#navbarScroll" data-toggle="collapse" type="button"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarScroll">
@@ -39,11 +40,13 @@
                         <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Pedido.html">PEDIDOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Contactanos.html">CONTÁCTANOS</a>
+                        <a class="nav-link mx-lg-3 font-weight-bold text-white"
+                            href="./Contactanos.html">CONTÁCTANOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-lg-2 font-weight-bold text-white" href="./Carrrito.html">
                             <i class="fa-solid fa-cart-shopping"></i>
+                            <span class='badge' id='lblCartCount'></span>
                         </a>
                     </li>
                 </ul>
@@ -66,7 +69,7 @@
     </section>
     <section>
         <div class="container">
-            <div class="row mb-4">
+            <div class="row mb-4" id="1">
                 <div class="col-lg-4 col-mb">
                     <img class="card-img-top img-card" id="image1" src="../assets/menu1@2x.png" alt="...">
                 </div>
@@ -81,23 +84,25 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(1)">-</button>
-                        <input class="pedido-input text-center" id="quantity1" type="number" inputmode="numeric" value="0">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(1)">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button">-</button>
+                        <input class="pedido-input text-center" id="quantity1" type="number" inputmode="numeric"
+                            value="1">
+                        <button class="btn font-weight-bold btn-cal" type="button">+</button>
                     </div>
-                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button" onclick="addcart(1)">
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2 "></i>
                         AÑADIR AL CARRITO
                     </a>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-4" id="2">
                 <div class="col-lg-4 col-mb">
                     <img class="card-img-top img-card" id="image2" src="../assets/menu2@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold" id="title2">Lorem impum dolor sit</h4>
-                    <p id="description2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                    <p id="description2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis
+                        commodi possimus
                         perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
                         distinctio repellendus exercitationem cumque sunt similique ut!</p>
                     <h4 class="value font-weight-bold" id="cost2">$34.100</h4>
@@ -105,23 +110,25 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(2)">-</button>
-                        <input class="pedido-input text-center" id="quantity2" type="number" inputmode="numeric" value="0">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(2)">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button">-</button>
+                        <input class="pedido-input text-center" id="quantity2" type="number" inputmode="numeric"
+                            value="1">
+                        <button class="btn font-weight-bold btn-cal" type="button">+</button>
                     </div>
-                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button" onclick="addcart(2)">
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
                         AÑADIR AL CARRITO
                     </a>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-4" id="3">
                 <div class="col-lg-4 col-mb">
                     <img class="card-img-top img-card" id="image3" src="../assets/menu3@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold" id="title3">Lorem impum dolor sit</h4>
-                    <p id="description3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                    <p id="description3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis
+                        commodi possimus
                         perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
                         distinctio repellendus exercitationem cumque sunt similique ut!</p>
                     <h4 class="value font-weight-bold" id="cost3">$26.200</h4>
@@ -129,23 +136,25 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(3)">-</button>
-                        <input class="pedido-input text-center" id="quantity3" type="number" inputmode="numeric" value="0">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(3)">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button">-</button>
+                        <input class="pedido-input text-center" id="quantity3" type="number" inputmode="numeric"
+                            value="1">
+                        <button class="btn font-weight-bold btn-cal" type="button">+</button>
                     </div>
-                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button" onclick="addcart(3)">
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
                         AÑADIR AL CARRITO
                     </a>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-4" id="4">
                 <div class="col-lg-4 col-mb">
                     <img class="card-img-top img-card" id="image4" src="../assets/menu4@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold" id="title4">Lorem impum dolor sit</h4>
-                    <p id="description4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                    <p id="description4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis
+                        commodi possimus
                         perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
                         distinctio repellendus exercitationem cumque sunt similique ut!</p>
                     <h4 class="value font-weight-bold" id="cost4">$37.600</h4>
@@ -153,23 +162,25 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(4)">-</button>
-                        <input class="pedido-input text-center" id="quantity4" type="number" inputmode="numeric" value="0">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(4)">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button">-</button>
+                        <input class="pedido-input text-center" id="quantity4" type="number" inputmode="numeric"
+                            value="1">
+                        <button class="btn font-weight-bold btn-cal" type="button">+</button>
                     </div>
-                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button" onclick="addcart(4)">
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
                         AÑADIR AL CARRITO
                     </a>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-4" id="5">
                 <div class="col-lg-4 col-mb">
                     <img class="card-img-top img-card" id="image5" src="../assets/menu5@2x.png" alt="...">
                 </div>
                 <div class="col-lg-5 col-mb">
                     <h4 class="pedido-plate font-weight-bold" id="title5">Lorem impum dolor sit</h4>
-                    <p id="description5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis commodi possimus
+                    <p id="description5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam reiciendis
+                        commodi possimus
                         perferendis quod! Nemo voluptatum consequatur, deserunt, nulla ducimus minus, vero culpa
                         distinctio repellendus exercitationem cumque sunt similique ut!</p>
                     <h4 class="value font-weight-bold" id="cost5">$30.300</h4>
@@ -177,11 +188,12 @@
                 <div class="col-lg-3 col-mb">
                     <h6 class="d-flex justify-content-center font-weight-bold title-color">CANTIDAD</h6>
                     <div class="d-flex justify-content-center mb-2">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="subtract(5)">-</button>
-                        <input class="pedido-input text-center" id="quantity5" type="number" inputmode="numeric" value="0">
-                        <button class="btn font-weight-bold btn-cal" type="button" onclick="add(5)">+</button>
+                        <button class="btn font-weight-bold btn-cal" type="button">-</button>
+                        <input class="pedido-input text-center" id="quantity5" type="number" inputmode="numeric"
+                            value="1">
+                        <button class="btn font-weight-bold btn-cal" type="button">+</button>
                     </div>
-                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button" onclick="addcart(5)">
+                    <a class=" btn pedido-btn-add d-flex justify-content-center" role="button">
                         <i class="fas fa-cart-plus mr-2"></i>
                         AÑADIR AL CARRITO
                     </a>
@@ -214,7 +226,10 @@
                 <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
 
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed" width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
+                        <div class="gmap_canvas"><iframe id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                width="300" height="200" frameborder="0" scrolling="no" marginheight="0"
+                                marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br>
                             <style>
                                 .mapouter {
                                     position: relative;
