@@ -424,7 +424,7 @@ h3 {
   font-family: Oswald;
 }
 
-.menu-title-div{
+.menu-title-div {
   flex-grow: 1;
 }
 
@@ -435,7 +435,6 @@ h3 {
 
 .btn-menu:hover {
   color: #fff;
-  
 }
 
 .card-n {
@@ -483,7 +482,6 @@ h3 {
   background-color: rgb(255 58 3);
   color: #fff;
 }
-
 
 /* Css de Mapa*/
 .map a:hover {
@@ -624,7 +622,7 @@ a.text-1 {
   width: 33% !important;
 }
 
-.btn-cal{
+.btn-cal {
   font-size: 20px;
 }
 
@@ -638,13 +636,20 @@ a.text-1 {
   height: 40px;
 }
 
-.pedido-btn-add
-i {
-line-height: inherit;
+.pedido-btn-add i {
+  line-height: inherit;
 }
 
-input[type=number]::-webkit-inner-spin-button{ 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
+#lblCartCount {
+  font-size: 12px;
+  background: #760622;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}

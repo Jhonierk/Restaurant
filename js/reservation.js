@@ -36,6 +36,7 @@ $("#modalReserva").on("show.bs.modal", function (event) {
     emailjs.send("gmail", "reserva", data).then(
       function (response) {
         if (response.text === "OK") {
+          //TODO: Cerrar modal despúes que se envie el correo
           Swal.fire({
             icon: "success",
             title: "El correo se ha enviado de forma exitosa",

@@ -1,271 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sal&Salsa</title>
-    <link rel="icon" type="image/png" href="../assets/favicon.png" />
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
-    <!--Iconos en fontawesome-->
-    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="../css/style.css" />
-    <!-- Iconos redes sociales -->
-    <link rel="stylesheet" type="text/css" href="../css/font.css" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-light">
-        <a class="navbar-brand nav-title font-weight-bold" href="../index.html"
-          >SAL&SALSA</a
-        >
-        <button
-          class="navbar-toggler"
-          data-target="#navbarScroll"
-          data-toggle="collapse"
-          type="button"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse d-lg-flex justify-content-end"
-          id="navbarScroll"
-        >
-          <ul class="navbar-nav mr-auto mr-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link mx-lg-3 font-weight-bold text-white"
-                href="./Nosotros.html"
-                >NOSOTROS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link mx-lg-3 font-weight-bold text-white"
-                href="./Menu.html"
-                >EL MENÚ</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link mx-lg-3 font-weight-bold text-white"
-                href="./Servicios.html"
-                >SERVICIOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link mx-lg-3 font-weight-bold text-white"
-                href="./Pedido.html"
-                >PEDIDOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link mx-lg-3 font-weight-bold text-white"
-                href="./Contactanos.html"
-                >CONTÁCTANOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link mx-lg-2 font-weight-bold text-white"
-                href="./Carrrito.html"
-              >
-                <i class="fa-solid fa-cart-shopping"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- Redes sociales -->
-    <div class="social-bar">
-      <a
-        href="https://www.facebook.com/salysalsa.es/"
-        class="icon icon-facebook"
-        target="_blank"
-      ></a>
-      <a
-        href="https://twitter.com/salsasal13"
-        class="icon icon-twitter"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.youtube.com/watch?v=YPIPRbWuKg4&t=60s"
-        class="icon icon-youtube"
-        target="_blank"
-      ></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sal&Salsa</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png" />
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <!--Iconos en fontawesome-->
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- Iconos redes sociales -->
+  <link rel="stylesheet" type="text/css" href="../css/font.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-light">
+      <a class="navbar-brand nav-title font-weight-bold" href="../index.html">SAL&SALSA</a>
+      <button class="navbar-toggler" data-target="#navbarScroll" data-toggle="collapse" type="button"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarScroll">
+        <ul class="navbar-nav mr-auto mr-lg-0">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Nosotros.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Menu.html">EL MENÚ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Servicios.html">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Pedido.html">PEDIDOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 font-weight-bold text-white" href="./Contactanos.html">CONTÁCTANOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 font-weight-bold text-white" href="./Carrrito.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class='badge' id='lblCartCount'></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Redes sociales -->
+  <div class="social-bar">
+    <a href="https://www.facebook.com/salysalsa.es/" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/salsasal13" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/watch?v=YPIPRbWuKg4&t=60s" class="icon icon-youtube" target="_blank"></a>
+  </div>
+  <!-- Titulo -->
+  <section>
+    <div class="container mt-5 mb-2">
+      <div class="row ml-4">
+        <h2 class="map-title my-5">Carrito de compras</h2>
+      </div>
     </div>
-    <!-- Titulo -->
-    <section>
-      <div class="container mt-5 mb-2">
-        <div class="row ml-4">
-          <h2 class="map-title">Carrito de compra</h2>
-        </div>
-      </div>
-    </section>
+  </section>
 
-    <section>
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col-lg-5 col-mb">
-            <h5
-              class="d-flex justify-content-center font-weight-bold title-color"
-            >
-              Por el momento no se ha realizado ningun pedido
-            </h5>
-            <div class="pedido">
-              <table>
-                <thead>
-                  <tr>
-                    <td>Nombre plato</td>
-                    <td>Cantidad</td>
-                    <td>Precio</td>
-                    <td>Subtotal</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr id="datos"></tr>
-                  <tr>
-                    <td colspan="4">
-                      <button id="btn-reserva" class="btn-reservar">
-                        Confirmar reserva
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="col-lg-5 col-mb"></div>
-          <div class="servicio-card">
-            <div class="col-lg-3 col-mb card-body">
-              <h6
-                class="d-flex justify-content-left font-weight-bold title-color"
-              >
-                TOTAL:$
-              </h6>
-              <a class="btn pedido-btn-add" role="button"> SOLICITAR PEDIDO </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <section>
+    <div class="container" id="plates">
+      <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col-3"><img src="../assets/menu1@2x.png" alt="" class="w-100"></div>
+            <div class="col-9">
+              <div class="row align-items-end">
+                <div class="col-auto">
+                  <h3 class="m-0 pedido-plate font-weight-bold value text-left">Lorem impum dolor sit</h3>
+                </div>
+                <div class="col-auto">
+                  <h4 class="m-0 value font-weight-bold">$25.000</h4>
+                </div>
+                <div class="col-auto">
+                  <button class="mr-3"><i class=" fas fa-trash " style="font-size: 1.5rem;"></i></button>
+                  <button><i class="fas fa-edit" style="font-size: 1.5rem;"></i></button>
 
-    <section>
-      <div class="row mb-5">
-        <div class="col-lg-5"></div>
-        <div class="col-lg-2">
-          <a
-            href="Pedido.html"
-            class="btn pedido-btn-add d-flex justify-content-center"
-            role="button"
-          >
-            CONTINUAR COMPRADO
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pie de pagina -->
-    <footer>
-      <div class="container-fluid mt-5 py-5 px-5 pien">
-        <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-lg-0">
-            <img
-              src="../assets/logo@2x.png"
-              class="img-fluid pie-image"
-              alt="Logo Sal&Salsa"
-            />
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
-            <div class="d-flex justify-content-between w-links">
-              <h3>
-                <a href="./Mapa.html" class="text-light pie-a"
-                  >MAPA DEL SITIO</a
-                >
-              </h3>
-              <h3>
-                <a href="./Contactanos.html" class="text-light pie-a"
-                  >CONTÁCTANOS</a
-                >
-              </h3>
-              <h3><a href="" class="text-light pie-a">RESERVAS</a></h3>
-            </div>
-            <div class="">
-              <p class="text-light m-0">Restaurante Sal y Salsa Ltda.</p>
-              <p class="text-light m-0">Calle 19 No. 7-30, Bogotá</p>
-              <p class="text-light m-0">reservas@salysalsa.com</p>
-              <p class="text-light">312 325 25 321</p>
-              <p class="text-light">©Copyright 2021</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe
-                  width="300"
-                  height="200"
-                  id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                ></iframe
-                ><a href="https://2piratebay.org"></a><br />
-                <style>
-                  .mapouter {
-                    position: relative;
-                    text-align: right;
-                    height: 200px;
-                    width: 300px;
-                  }</style
-                ><a href="https://www.embedgooglemap.net"
-                  >how to embed a google map in wordpress</a
-                >
-                <style>
-                  .gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                    height: 200px;
-                    width: 300px;
-                  }
-                </style>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-8">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora mollitia modi ex eaque
+                    perspiciatis
+                    molestias.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-auto">
+                  <button class="btn font-weight-bold btn-cal" type="button">-</button>
+                  <input class="pedido-input text-center" id="quantity1" type="number" inputmode="numeric" value="1">
+                  <button class="btn font-weight-bold btn-cal" type="button">+</button>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-auto">
+                  <button class="btn pedido-btn-add font-weight-bold">CONTINUAR COMPRANDO</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="col-4 d-flex justify-content-center align-items-start">
+          <div class="w-75 px-3 rounded pt-5 pb-5" style="background-color: #dedfd9;">
+            <div class="d-flex justify-content-between mb-4">
+              <h4 class="value font-weight-bold">TOTAL</h4>
+              <h4 class="value font-weight-bold" id="total">$75.000</h4>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn pedido-btn-add font-weight-bold btn-block">RESERVAR AHORA</button>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </footer>
-    <!--Scripts-->
-    <script src="../jquery/jquery.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.js"></script>
-    <script src="../bootstrap/js/popper.min.js"></script>
-    <script src="../js/function.js"></script>
-    <script>
-      $(document).ready(function () {
-        let pedido = localStorage.getItem("pedido");
+    </div>
 
-        console.log(pedido);
+  </section>
 
-        /*  $("#datos").append("<td>" + lugar + "</td>");
-        $("#datos").append("<td>" + cantPersonas + "</td>");
-        $("#datos").append("<td>" + llegada + "</td>");
-        $("#datos").append("<td>" + salida + "</td>"); */
+  <!-- Pie de pagina -->
+  <footer>
+    <div class=" container-fluid mt-5 py-5 px-5 pien">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-lg-0">
+          <img src="../assets/logo@2x.png" class="img-fluid pie-image" alt="Logo Sal&Salsa" />
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
+          <div class="d-flex justify-content-between w-links">
+            <h3>
+              <a href="./Mapa.html" class="text-light pie-a">MAPA DEL SITIO</a>
+            </h3>
+            <h3>
+              <a href="./Contactanos.html" class="text-light pie-a">CONTÁCTANOS</a>
+            </h3>
+            <h3><a href="" class="text-light pie-a">RESERVAS</a></h3>
+          </div>
+          <div class="">
+            <p class="text-light m-0">Restaurante Sal y Salsa Ltda.</p>
+            <p class="text-light m-0">Calle 19 No. 7-30, Bogotá</p>
+            <p class="text-light m-0">reservas@salysalsa.com</p>
+            <p class="text-light">312 325 25 321</p>
+            <p class="text-light">©Copyright 2021</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-lg-0 justify-content-between">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="300" height="200" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Calle%2019%20No.%207-30,%20Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://2piratebay.org"></a><br />
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 200px;
+                  width: 300px;
+                }
+              </style><a href="https://www.embedgooglemap.net">how to embed a google map in wordpress</a>
+              <style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 200px;
+                  width: 300px;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Scripts-->
+  <script src="../jquery/jquery.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.js"></script>
+  <script src="../bootstrap/js/popper.min.js"></script>
+  <script src="../js/cart.js"></script>
+  <script>
+    $(document).ready(function () {
+      let pedido = localStorage.getItem("pedido");
 
-        $("#btn-reserva").click(function () {
-          localStorage.clear();
-          window.location.replace("index.html");
-        });
+      console.log(pedido);
+
+      /*  $("#datos").append("<td>" + lugar + "</td>");
+      $("#datos").append("<td>" + cantPersonas + "</td>");
+      $("#datos").append("<td>" + llegada + "</td>");
+      $("#datos").append("<td>" + salida + "</td>"); */
+
+      $("#btn-reserva").click(function () {
+        localStorage.clear();
+        window.location.replace("index.html");
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
