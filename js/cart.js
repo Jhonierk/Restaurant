@@ -63,3 +63,21 @@ function setTotalPlatesCart(cart) {
   });
   $("#lblCartCount").text(totalPlatesCart);
 }
+
+
+////Funcion para eliminar producto por ID del LocalStorage
+function deletePlate(productID){
+  let productLs;
+  productLs = this.setTotalPlatesCart();
+  productLs.forEach(function(productLs, index){
+    if(productLs.id === productID){
+      productLs.splice(index,1);
+    }
+  });
+  localStorage.setItem('products', JSON.stringify(productLs))
+}
+
+// Funcion para eliminar completamente el LocalStorage
+vaciarLocalStorage(){
+  localStorage.clear();
+}
