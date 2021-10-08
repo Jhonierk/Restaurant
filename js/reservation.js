@@ -33,14 +33,14 @@ $("#modalReserva").on("show.bs.modal", function (event) {
 
     emailjs.init("user_5EBnjcadQYKcG9dJU2dJ6");
 
-    emailjs.send("gmail", "reserva", data).then(
+    emailjs.send("gmail", "reserva-servicio", data).then(
       function (response) {
         if (response.text === "OK") {
-          //TODO: Cerrar modal despúes que se envie el correo
+          $("#modalReserva").modal("hide");
           Swal.fire({
             icon: "success",
             title: "El correo se ha enviado de forma exitosa",
-            text: "Revise su correo electrónico",
+            text: "Revise su bandeja de entrada",
             showConfirmButton: false,
             timer: 3000,
           });
