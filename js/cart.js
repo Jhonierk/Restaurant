@@ -142,6 +142,7 @@ td, th {
 
         let data = {
           email: formData.get("email"),
+          name: formData.get("name"),
           html: header + footer,
         };
 
