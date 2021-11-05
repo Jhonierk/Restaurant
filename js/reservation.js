@@ -8,10 +8,8 @@ $("#modalReserva").on("show.bs.modal", function (event) {
   modal.find(".modal-title").text("Reserva de " + service);
 
   $('input[name="assistants"]').on("keypress", function (event) {
-    if (
-      (event.which != 8 && event.which != 0 && event.which < 48) ||
-      event.which > 57
-    ) {
+    if (event.key !== "Backspace" && event.key !== "" && (event.key < "0" || event.key > "C"))  
+    {
       event.preventDefault();
     }
   });
